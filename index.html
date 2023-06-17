@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F3 contest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="heading">
+        <h2>New Employees</h2>
+      </div>
+      <form action="#" id="form">
+        <div class="box">
+          <label for="fname">Enter Name:</label>
+          <input type="text" id="fname" required />
+        </div>
+        <div class="box">
+          <label for="profession">Enter Profession:</label>
+          <input type="text" id="profession" required />
+        </div>
+        <div class="box">
+          <label for="age"> Enter age:</label>
+          <input type="number" name="age" id="age" />
+        </div>
+      </form>
+      <button id="add_user">Add User</button>
+
+      <p class="status_msg">
+        Error : Please Make sure All the fields are filled before adding in an
+        employee !
+      </p>
+
+      <p >Added Employees</p>
+
+      <div class="container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

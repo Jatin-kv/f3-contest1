@@ -1,0 +1,108 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows:auto;
+    gap: 20px;
+
+}
+
+body{
+ padding: 10px;
+ margin: 20px;
+}
+
+.heading{
+    margin-bottom: 40px;
+}
+
+.box{
+    min-height: auto;
+    max-width:320px;
+}
+.box label{
+    display: block;
+    margin-bottom:10px;
+}
+.box input{
+    min-height: 35px;
+    outline: 0px;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 100%;
+    padding-inline: 10px;
+}
+
+#add_user{
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: aliceblue;
+    color: black;
+    min-width:120px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor:pointer;
+    font-weight: 400;
+}
+
+#add_user:hover{
+    background-color: rgb(8, 147, 8);
+    color: white;
+}
+
+.status_msg{
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    padding: 20px 0px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 40px;
+    width: fit-content;
+}
+
+.all_details{
+    border: 2px solid white;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 25px;
+    border-radius: 10px;
+}
+
+#del_btn{
+padding: 8px 20px;
+border-radius: 8px;
+border-color: white;
+background-color: #fff;
+font-weight: bold;
+color: rgb(0, 0, 0);
+cursor: pointer;
+}
+
+#del_btn:hover{
+    background-color: grey;
+    border: none;
+    color: #fff;
+}
